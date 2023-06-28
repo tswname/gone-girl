@@ -1,0 +1,70 @@
+*,
+body{
+    box-sizing: border-box;
+    background-color: #000000;
+    font-family: 'Yatra One', cursive;
+}
+
+.app {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 0 1em;
+    margin: 5em auto;
+
+    max-width: 800px;
+
+}
+
+.quiz {
+    display: flex;
+    flex-direction: column;
+    margin: 8em auto;
+}
+
+.riddle-field {
+    font-size: 2.4em;
+
+    margin-bottom: 0.6em;
+    width: 100%;
+
+    text-align:center;
+}
+
+.answer-field{
+    color: #fff;
+    font-size: 1em;
+    background-color: #ffffff17;
+    border-color: #57ebff;
+    border-radius: 21px;
+
+    padding: 1em;
+}
+
+#next, .check-btn {
+    color: #fff;
+    background-color: #ffffff17;
+    border-color: #57ebff;
+    align-self: flex-end;
+    border-radius: 21px;
+    
+    margin-top: 1em;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.correto {
+    color: #fff;
+    background-color: #000;
+    border-color: #00000000;
+    align-self: flex-end;
+    border-radius: 21px;
+    
+    margin-top: 1em;
+    padding: 1em;
+    cursor: pointer;
+}
+
+
