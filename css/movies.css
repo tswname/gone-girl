@@ -1,0 +1,28 @@
+.app {
+    margin: 0 auto;
+}
+
+.quiz {
+    margin: 15vh auto;
+}
+
+.claquete {
+    width: 17em;
+    height: auto;
+    margin-bottom: 4em;
+    align-self: center;
+}
+
+#minutes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4em;
+    gap: 1em;
+
+}
+#minutes p {
+    font-size: 1em;
+    align-self: center;
+}

@@ -1,0 +1,11 @@
+.app {
+    margin: 0 auto;
+}
+
+.quiz {
+    margin: 30vh auto;
+}
+
+.quiz h1 {
+    font-size: 1.5em;
+}
